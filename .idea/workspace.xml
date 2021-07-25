@@ -3,23 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="16b5f0f7-1369-418c-a2f3-6d221e72e3c7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../demo-payment-foodease/src/CheckoutForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widgets/ExperienceCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widgets/ExperienceCard/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widgets/Progress/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Widgets/Progress/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cover/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cover/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Experience/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Experience/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/useOnScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vk6kabn2xDUdzSnEKcavUwFp13" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,7 +51,7 @@
       <updated>1627093883914</updated>
       <workItem from="1627093897469" duration="6449000" />
       <workItem from="1627120993371" duration="17292000" />
-      <workItem from="1627185408579" duration="19048000" />
+      <workItem from="1627185408579" duration="19506000" />
     </task>
     <servers />
   </component>
