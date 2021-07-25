@@ -1,0 +1,42 @@
+#skill {
+  padding: 3rem 0 0;
+  margin: auto;
+  .title {
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 4rem !important;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 125px;
+      height: 30px;
+      left: 50%;
+      margin-left: -60px;
+      bottom: -30px;
+      background-image: url(../../assets/images/marker.svg);
+      background-repeat: no-repeat;
+    }
+  }
+  .subtitle {
+    margin: auto;
+    max-width: 600px;
+    color: #212529;
+    margin-bottom: 2rem !important;
+  }
+  .list {
+    margin: auto;
+    background-color: #f4f6f8!important;
+    max-width: 1024px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+    display: grid;
+    padding: 2rem;
+    @media only screen and (max-width: 1024px) {
+      margin: auto 2rem;
+    }
+    @media only screen and (max-width: 415px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

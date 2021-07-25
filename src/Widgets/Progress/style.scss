@@ -1,0 +1,44 @@
+@mixin gen-progress($percentage) {
+  $name: loadProgress#{$percentage};
+
+  @keyframes #{$name}{
+    @content
+  }
+}
+.wrapper {
+  width: 100%;
+  margin: 1rem 0;
+  .sub-title {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+  .progress {
+    background-color: #e9ecef;
+    height: 1rem;
+    border-radius: 24px;
+    position: relative;
+    .percent {
+      background-color: #f6e05e!important;
+      height: 1rem;
+      border-top-left-radius: 24px;
+      border-bottom-left-radius: 24px;
+    }
+    @for $i from 0 through 100 {
+      .percent-#{$i} {
+        @include gen-progress($i) {
+          0% {
+            width: 0%
+          }
+          100% {
+            width: #{$i+'%'}
+          }
+        }
+        width: #{$i+'%'};
+        animation: 1s ease-out 1s 1 loadProgress#{$i};
+      }
+    }
+  }
+}

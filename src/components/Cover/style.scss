@@ -1,0 +1,135 @@
+#cover-content {
+  margin: auto;
+  color: rgba(0,0,0,.9);
+  background-color: #f4f6f8!important;
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1320px;
+    margin: auto;
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    .half {
+      padding: 0 2rem !important;
+      margin: 0 2rem;
+      width: 50%;
+      flex: 1;
+      @media only screen and (max-width: 1024px) {
+        padding: 0 !important;
+      }
+      @media only screen and (max-width: 768px) {
+        width: unset;
+      }
+    }
+    .left {
+      img {
+        width: 400px;
+        height: 400px;
+        @media only screen and (max-width: 768px) {
+          width: 300px;
+        }
+      }
+    }
+    .right {
+      text-align: left;
+      margin-top: 4rem !important;
+      .lead {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+      .title {
+        display: inline;
+        font-weight: 800;
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        position: relative;
+        animation: fadeIn 2s;
+        -moz-animation: fadeIn 2s; /* Firefox */
+        -webkit-animation: fadeIn 2s; /* Safari and Chrome */
+        -o-animation: fadeIn 2s; /* Opera */
+        &:after {
+          content: "";
+          width: 125px;
+          height: 30px;
+          position: absolute;
+          bottom: -25px;
+          right: -30px;
+          background-image: url(../../assets/images/marker.svg);
+          background-repeat: no-repeat;
+        }
+      }
+      .office {
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-top: 2rem;
+        animation: fadeInUp 0.6s;
+        -moz-animation: fadeInUp 0.6s; /* Firefox */
+        -webkit-animation: fadeInUp 0.6s; /* Safari and Chrome */
+        -o-animation: fadeInUp 0.6s; /* Opera */
+      }
+      .social {
+        animation: fadeInUp 1s;
+        -moz-animation: fadeInUp 1s; /* Firefox */
+        -webkit-animation: fadeInUp 1s; /* Safari and Chrome */
+        -o-animation: fadeInUp 1s; /* Opera */
+        margin-bottom: 2rem;
+         a {
+           :hover {
+             opacity: 0.7;
+           }
+         }
+        .social-icon {
+          font-size: 1.2rem;
+          color: rgba(0, 0, 0, 0.8) !important;
+          font-weight: 700;
+          cursor: pointer;
+          padding: 0.5rem;
+        }
+      }
+      .contain-button {
+        animation: fadeInUp 1.5s;
+        -moz-animation: fadeInUp 1.5s; /* Firefox */
+        -webkit-animation: fadeInUp 1.5s; /* Safari and Chrome */
+        -o-animation: fadeInUp 1.5s; /* Opera */
+        display: flex;
+        .contact-button {
+          cursor: pointer;
+          padding: .8rem 2rem;
+          boder-color: #f6e05e;
+          background-color: #f6e05e;
+          border-radius: 24px;
+          color: rgba(0, 0, 0, 0.9);
+          text-decoration: none;
+          font-weight: bolder;
+          transition: transform .18s ease-in-out;
+          box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+          &:hover {
+            opacity: 0.8;
+            transform: translateY(-2px);
+          }
+        }
+        &:after {
+          content: " ";
+          display: block;
+          clear: both;
+        }
+      }
+    }
+  }
+}
+.wave-bg {
+  //animation: fadeInDown 1.5s;
+  //-moz-animation: fadeInDown 1.5s; /* Firefox */
+  //-webkit-animation: fadeInDown 1.5s; /* Safari and Chrome */
+  //-o-animation: fadeInDown 1.5s; /* Opera */
+  width: 100%;
+  height: 220px;
+  background-image: url(../../assets/images/wave-bg.svg);
+}
